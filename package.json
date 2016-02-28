@@ -1,0 +1,58 @@
+{
+  "name": "trails-example-express-gulp",
+  "version": "0.0.0",
+  "description": "Trails example project to use express4 and gulp as asset manager",
+  "homepage": "https://github.com/jaumard/trails-example-express-gulp",
+  "author": {
+    "name": "Jimmy Aumard",
+    "email": "jimmy.aumard@gmail.com",
+    "url": "https://github.com/jaumard"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "del": "^2.2.0",
+    "ejs": "^2.4.1",
+    "glob": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "lodash": "^4.5.0",
+    "rc": "^1.1",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-gulp": "^0.1.2",
+    "trailpack-repl": "^1.0.0-alpha-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "^1.0.0-beta-2",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.2",
+    "supertest": "^1.1"
+  },
+  "scripts": {
+    "test": "eslint --fix --ignore-pattern 'assets/**/*' . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/jaumard/trails-example-express-gulp",
+  "license": "MIT"
+}

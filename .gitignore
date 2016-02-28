@@ -1,0 +1,7 @@
+/.idea
+node_modules
+/.tmp
+/assets/css
+/assets/min
+/assets/concat
+coverage

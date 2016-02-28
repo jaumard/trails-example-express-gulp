@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import "globals";
+
+/* Tablet landscape
+----------------------------------------------- */
+@media only screen and (min-width: 992px) and (max-width: 1175px) {
+
+  .main {
+    width: 896px;
+  }
+
+}
+
+/* Tablet portrait
+----------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main {
+    width: 712px;
+  }
+
+}
+
+/* Mobile landscape
+----------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  h1, h2 {
+    text-align: center;
+  }
+  .main {
+    width: 480px;
+  }
+  body {
+    padding-top: 30px;
+  }
+
+}
+
+/* Mobile portrait
+----------------------------------------------- */
+
+@media only screen and (max-width: 479px) {
+
+  h1, h2 {
+    text-align: center;
+  }
+  .main {
+    min-width: 320px;
+    width: 90%;
+  }
+  body {
+    padding-top: 30px;
+  }
+  article {
+    margin: 0 10px;
+  }
+}
