@@ -1,3 +1,6 @@
+'use strict'
+
+const path = require('path')
 /**
  * Trailpack Configuration
  * (app.config.main)
@@ -22,7 +25,8 @@ module.exports = {
    * Define application paths here. "root" is the only required path.
    */
   paths: {
-    root: __dirname + '/../',
-    www: __dirname + '/../.tmp/public'
+    root: process.cwd(),
+    temp: path.resolve(process.cwd(), '.tmp'),
+    www: path.resolve(process.cwd(), '.tmp', 'public')
   }
 }
